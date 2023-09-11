@@ -1,0 +1,7 @@
+- job_name: 'Node_Exporter'
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+   
+  static_configs:
+    - targets: ['15.206.84.125:9100']
